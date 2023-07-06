@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   background-color: #23252e;
   color: #8a8fa7;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .material-icons-outlined {
@@ -17,7 +17,7 @@ body {
 }
 
 .text-blue {
-  color: #334be9;;
+  color: #334be9;
 }
 
 .background-blue {
@@ -53,8 +53,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 3fr;
   grid-template-areas:
-    "header header header header"
-    "main main main main";
+    'header header header header'
+    'main main main main';
   height: 100vh;
 }
 
