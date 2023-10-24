@@ -1,6 +1,6 @@
 // BAR CHART
 
-var barChartOptions = {
+const barChartOptions = {
   series: [
     {
       name: 'Net Profit',
@@ -92,7 +92,7 @@ var barChartOptions = {
   },
 };
 
-var barChart = new ApexCharts(
+const barChart = new ApexCharts(
   document.querySelector('#bar-chart'),
   barChartOptions
 );
@@ -100,7 +100,7 @@ barChart.render();
 
 // AREA CHART
 
-var areaChartOptions = {
+const areaChartOptions = {
   series: [
     {
       name: 'Purchase Orders',
@@ -215,7 +215,7 @@ var areaChartOptions = {
   },
 };
 
-var areaChart = new ApexCharts(
+const areaChart = new ApexCharts(
   document.querySelector('#area-chart'),
   areaChartOptions
 );
