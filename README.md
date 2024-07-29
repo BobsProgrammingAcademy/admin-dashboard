@@ -28,6 +28,6 @@ To run the application, start the **Live Server** by clicking **Go Live** in the
 
 Once the **Live Server** is up and running, go to http://127.0.0.1:5500/index.html to view the application.
 
-### Copyright and License
+## Copyright and License
 
 Copyright © 2023 Bob's Programming Academy. Code released under the MIT license.
